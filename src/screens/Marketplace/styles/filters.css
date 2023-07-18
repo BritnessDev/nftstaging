@@ -1,0 +1,18 @@
+.ant-collapse {
+  background-color: transparent;
+  border: none;
+}
+
+.ant-collapse-item {
+  border: none !important;
+}
+
+.ant-collapse-content {
+  background-color: transparent;
+  border: none;
+}
+
+.ant-collapse-header-text,
+.ant-collapse-expand-icon {
+  color: #fff;
+}

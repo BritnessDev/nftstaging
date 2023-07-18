@@ -1,0 +1,17 @@
+.swiper-container {
+    list-style: none;
+}
+
+.pagination {
+    bottom: 0;
+    padding-bottom: 4px;
+}
+
+.slide {
+    text-align: center;
+    height: 320px;
+    line-height: 320px;
+    background: #e37dff;
+    border: 1px solid black;
+    overflow: hidden;
+}

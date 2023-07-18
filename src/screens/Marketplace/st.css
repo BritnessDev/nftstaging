@@ -1,0 +1,20 @@
+.placeholder-white::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #242424;
+  opacity: 1; /* Firefox */
+}
+.placeholder-white:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #242424;
+}
+
+.placeholder-#242424::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: white;
+}
+
+@media only screen and (max-width: 1024px) {
+  .typo-title {
+    font-size: 20px;
+  }
+}

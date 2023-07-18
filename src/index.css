@@ -1,0 +1,124 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  background-color: #fff;
+}
+
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+article > * + * {
+  margin-top: 1em;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+#w3a-modal {
+  z-index: 100;
+}
+
+.ant-space-item {
+  color: #aaa;
+  /* position: absolute;
+  top: 1rem;
+  right: 1rem; */
+}
+
+.ant-select-selector {
+  background-color: transparent !important;
+  border: none !important;
+  color: #fff !important;
+}
+
+.ant-select-arrow {
+  color: #fff !important;
+}
+
+.select-item {
+  color: #242424;
+  outline: none;
+  border: none;
+}
+
+.select-item .ant-select-arrow {
+  color: #242424 !important;
+}
+
+.select-item .ant-select-selection-item-content {
+  color: #242424 !important;
+}
+
+.alice-carousel__prev-btn {
+  width: fit-content !important;
+  margin-left: 32%;
+}
+
+.alice-carousel__next-btn {
+  width: fit-content !important;
+  margin-left: 56px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .alice-carousel__prev-btn {
+    margin-left: 40%;
+  }
+  .alice-carousel__next-btn {
+
+  }
+}
+
+.ant-table {
+  min-width: 800px;
+}
+
+@media only screen and (max-width: 570px) {
+  .alice-carousel__prev-btn {
+    margin-left: 29%;
+  }
+}

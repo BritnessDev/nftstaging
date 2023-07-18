@@ -1,0 +1,166 @@
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+  font-family: "IBM Plex Mono" /* , monospace */;
+}
+
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item:hover::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu:hover::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-active::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-active::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-open::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-open::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-selected::after,
+.ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-selected::after {
+  border-bottom: 2px solid #21bf96 !important;
+}
+
+.ant-menu-horizontal > .ant-menu-item-selected a,
+.ant-menu-horizontal > .ant-menu-item a:hover {
+  color: #21bf96 !important;
+}
+
+.ant-modal-content {
+  overflow: auto;
+  border-radius: 0.3rem;
+}
+
+.header1 {
+  font-size: 58px;
+  line-height: 68px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.main_paragraph {
+  font-size: 36px;
+  line-height: 28px;
+}
+
+.paragraph {
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.sub_paragraph {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 400;
+}
+
+.mHeader1 {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.mParagraph {
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.mSub_paragraph {
+  font-size: 10px;
+  line-height: 14px;
+  font-weight: 400;
+}
+
+/* .slick-track {
+  height: 25rem;
+} */
+
+/* Web3Auth Modal Changes */
+
+.w3a-text-field {
+  border-radius: 0px !important;
+  padding: 5px !important;
+  height: auto !important;
+  box-shadow: none !important;
+  border-bottom: 2px solid #191919 !important;
+}
+
+.w3a-text-field:focus {
+  outline: none !important;
+}
+
+form > .w3a-button {
+  border-radius: 6px !important;
+  padding: 8px !important;
+  height: auto !important;
+  background-color: #191919 !important;
+  color: #d2fa63 !important;
+  text-transform: uppercase !important;
+  font-weight: 100 !important;
+  font-size: small !important;
+  font-family: sans-serif !important;
+}
+
+div > .w3a-button {
+  border-radius: 6px !important;
+  padding: 8px !important;
+  height: auto !important;
+  background-color: #191919 !important;
+  color: #d2fa63 !important;
+  text-transform: uppercase !important;
+  font-weight: 100 !important;
+  font-size: small !important;
+  font-family: sans-serif !important;
+}
+
+.w3a-modal__content {
+  background: #ffffff !important;
+}
+
+.w3a-modal__header {
+  box-shadow: none !important;
+}
+
+.w3a-modal__inner {
+  border-radius: 20px !important;
+}
+
+.w3ajs-email-passwordless {
+  display: none !important;
+}
+
+.noBorder {
+  border: none !important;
+}
+
+input {
+  border: none;
+}
+
+/* Works on Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgb(70, 70, 70) auto;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: transparent;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: transparent;
+  border-radius: 10px;
+  transition: 0.4s;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

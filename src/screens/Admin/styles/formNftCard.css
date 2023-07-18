@@ -1,0 +1,57 @@
+.select-field {
+  width: 100%;
+  padding: 1rem;
+  background-color: #FFFFFF;
+  border-radius: 0.8rem;
+  border: none;
+  outline: none;
+  color: #737373;
+  margin-top: 24px;
+  font-family: 'IBM Plex Mono';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.networkType .ant-radio-wrapper span.ant-radio + span {
+  color: black;
+}
+
+.networkType
+  .ant-radio-wrapper
+  span.ant-radio
+  input[type="radio"]
+  + span.ant-radio-inner {
+  background-color: transparent;
+  border-color: black;
+}
+
+.networkType
+  .ant-radio-wrapper
+  span.ant-radio
+  input[type="radio"]:checked
+  + span.ant-radio-inner {
+  border-color: #b9fd02;
+  box-shadow: none;
+}
+
+.networkType
+  .ant-radio-wrapper
+  span.ant-radio
+  input[type="radio"]
+  + span.ant-radio-inner::after {
+  background-color: black;
+}
+
+.networkType
+  .ant-radio-wrapper
+  span.ant-radio
+  input[type="radio"]:checked
+  + span.ant-radio-inner::after {
+  background-color: #b9fd02;
+}
+
+.custom-input input[type="number"].ant-input {
+  text-align: center;
+  color: "#242424";
+}

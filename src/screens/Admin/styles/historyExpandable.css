@@ -1,0 +1,34 @@
+.historyExpandable span {
+  color: #242424;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.historyExpandable {
+  border: 1px solid rgba(0, 0, 0, 0.1) !important;
+  border-radius: 5px !important;
+}
+
+.dropdown {
+  background-color: #f1f2f3;
+  width: 50%;
+  height: 2.5rem;
+  border-radius: 5px;
+  margin-right: 1rem;
+  border-radius: 8px;
+}
+
+.dropdownSelect {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+}
+
+.ant-collapse-header {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1) !important;
+}
+
+.ant-dropdown-menu-item-only-child:hover {
+  background-color: #f3f6f9;
+}

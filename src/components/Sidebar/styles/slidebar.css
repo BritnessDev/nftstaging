@@ -1,0 +1,14 @@
+.marketPlacePanelFilters div.ant-collapse-expand-icon,
+.marketPlacePanelFilters .ant-collapse-header-text {
+  color: #242424;
+  font-size: 24px;
+}
+
+.marketPlacePanelFilters .ant-collapse-header {
+  border-bottom: none !important;
+  padding-bottom: 0 !important;
+}
+
+.CollectionExchange .ant-list-item {
+  padding: 0px;
+}

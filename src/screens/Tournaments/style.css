@@ -1,0 +1,78 @@
+.cs-place {
+    margin: 0 !important;
+    background: white;
+    border-radius: 19px;
+    padding: 4px 10px;
+    font-size: 14px;
+}
+
+.cs-itext {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.ls-itext {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.place-sub {
+    color: #3985F5;
+}
+
+.img-blender {
+    mix-blend-mode: difference;
+}
+
+.league-item {
+    cursor: pointer;
+}
+
+.league-drawer .ant-drawer-body {
+    background-color: #F2F3F5;
+    padding: 0 !important;
+}
+
+.cs-info-small {
+    text-align: center;
+    font-size: 24px;
+    color: white;
+}
+
+.cs-info-wrap-small {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 40%;
+    left: 0;
+}
+
+.ls-date {
+    padding-top: 6px;
+    font-size: 14px;
+    color: #242424; 
+}
+
+.ls-type {
+    padding: 3px 20px;
+    border: 1px solid #242424;
+    border-radius: 30px;
+    font-size: 14px;
+    color: #242424; 
+}
+
+.prize {
+    color: #242424;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+@media only screen and (max-width: 600px) {
+    .cs-itext {
+        font-size: 12px !important;
+    }
+
+    .ls-itext {
+        font-size: 10px !important;
+    }
+}
